@@ -1,0 +1,88 @@
+These are helped you to complete your Airbnb project
+
+Feature name extracted from Mongodb atlas:
+
+Data Frame - 1
+
+{"_id":1, "listing_url":1, "name":1, 'property_type':1, 'room_type':1, 'bed_type':1, 'minimum_nights':1, 'maximum_nights':1, 'cancellation_policy':1, 'accommodates':1, 'bedrooms':1, 'beds':1, 'number_of_reviews':1, 'bathrooms':1, 'price':1, 'extra_people':1, 'guests_included':1, 'images.picture_url':1, 'review_scores':1,'cleaning_fee':1}
+
+Data Frame - 2
+
+{'_id':[],'host_id':[], 'host_url':[], 'host_name':[], 'host_location':[],"host_response_time":[], 'host_thumbnail_url':[], 'host_picture_url':[], 'host_neighbourhood':[], 'host_response_rate':[], 'host_is_superhost':[], 'host_has_profile_pic':[], 'host_identity_verified':[], 'host_listings_count':[], 'host_total_listings_count':[], 'host_verifications':[]}
+
+Data Frame - 3
+
+{'_id':[], 'street':[], 'suburb':[], 'government_area':[], 'market':[], 'country':[],
+                   'country_code':[], 'location_type':[], "longitude":[], "latitude":[],
+                    "is_location_exact":[]}
+
+Data Frame - 4
+
+{'_id':[], 'availability_30':[], 'availability_60':[], 'availability_90':[], 'availability_365':[]}
+
+
+Streamlit Home section:
+
+    image1= Image.open("C:/Users/vignesh/Desktop/New folder/Airbnb image.jpg")
+    st.image(image1)
+
+    st.header("About Airbnb")
+    st.write("")
+    st.write('''***Airbnb is an online marketplace that connects people who want to rent out
+              their property with people who are looking for accommodations,
+              typically for short stays. Airbnb offers hosts a relatively easy way to
+              earn some income from their property.Guests often find that Airbnb rentals
+              are cheaper and homier than hotels.***''')
+    st.write("")
+    st.write('''***Airbnb Inc (Airbnb) operates an online platform for hospitality services.
+                  The company provides a mobile application (app) that enables users to list,
+                  discover, and book unique accommodations across the world.
+                  The app allows hosts to list their properties for lease,
+                  and enables guests to rent or lease on a short-term basis,
+                  which includes vacation rentals, apartment rentals, homestays, castles,
+                  tree houses and hotel rooms. The company has presence in China, India, Japan,
+                  Australia, Canada, Austria, Germany, Switzerland, Belgium, Denmark, France, Italy,
+                  Norway, Portugal, Russia, Spain, Sweden, the UK, and others.
+                  Airbnb is headquartered in San Francisco, California, the US.***''')
+    
+    st.header("Background of Airbnb")
+    st.write("")
+    st.write('''***Airbnb was born in 2007 when two Hosts welcomed three guests to their
+              San Francisco home, and has since grown to over 4 million Hosts who have
+                welcomed over 1.5 billion guest arrivals in almost every country across the globe.***''')
+
+
+
+Streamlit About section:
+
+    st.header("ABOUT THIS PROJECT")
+
+    st.subheader(":orange[1. Data Collection:]")
+
+    st.write('''***Gather data from Airbnb's public API or other available sources.
+        Collect information on listings, hosts, reviews, pricing, and location data.***''')
+    
+    st.subheader(":orange[2. Data Cleaning and Preprocessing:]")
+
+    st.write('''***Clean and preprocess the data to handle missing values, outliers, and ensure data quality.
+        Convert data types, handle duplicates, and standardize formats.***''')
+    
+    st.subheader(":orange[3. Exploratory Data Analysis (EDA):]")
+
+    st.write('''***Conduct exploratory data analysis to understand the distribution and patterns in the data.
+        Explore relationships between variables and identify potential insights.***''')
+    
+    st.subheader(":orange[4. Visualization:]")
+
+    st.write('''***Create visualizations to represent key metrics and trends.
+        Use charts, graphs, and maps to convey information effectively.
+        Consider using tools like Matplotlib, Seaborn, or Plotly for visualizations.***''')
+    
+    st.subheader(":orange[5. Geospatial Analysis:]")
+
+    st.write('''***Utilize geospatial analysis to understand the geographical distribution of listings.
+        Map out popular areas, analyze neighborhood characteristics, and visualize pricing variations.***''')
+
+
+
+
