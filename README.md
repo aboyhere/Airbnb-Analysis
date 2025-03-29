@@ -12,11 +12,30 @@ The Airbnb Data Analysis and Visualization project focuses on exploring and pres
 - ETL Work: MongoDB data extraction, data transformation using Pandas.
 - EDA: Visualization with Matplotlib, Seaborn, and Plotly.
 - Streamlit UI: Streamlit library for building interactive web applications.
+
+## Skills Covered
+- Data collection and integration.
+- Data cleaning and preprocessing.
+- ETL techniques for data transformation.
+- Exploratory Data Analysis (EDA).
+- Data visualization.
+- Web application development with Streamlit.
+  
 --
 ## **Getting Started**
 1. Clone the repo
-   ["https://github.com/aboyhere/Airbnb-Analysis"]
+   >[https://github.com/aboyhere/Airbnb-Analysis]
 2. install required packages
    >[pip install -r packages.text]
+3. Run streamlit app
+   > streamlit run Airbnb.py
+4. Access the app in your browser
+   **Automatically redirect to your local browser**
+
+## Conclusion
+
+**Using this project to we can able to analysis the huge dataset into Visualization model and make decisions **
+
+
 
 
