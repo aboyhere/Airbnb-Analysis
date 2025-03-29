@@ -12,7 +12,7 @@ The Airbnb Data Analysis and Visualization project focuses on exploring and pres
 - ETL Work: MongoDB data extraction, data transformation using Pandas.
 - EDA: Visualization with Matplotlib, Seaborn, and Plotly.
 - Streamlit UI: Streamlit library for building interactive web applications.
-
+--
 ## Skills Covered
 - Data collection and integration.
 - Data cleaning and preprocessing.
