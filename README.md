@@ -32,10 +32,24 @@ The Airbnb Data Analysis and Visualization project focuses on exploring and pres
 4. Access the app in your browser
    <br/>
    **Automatically redirect to your local browser**
+--
+
+## Sample streamlit code
+```python
+st.title("GEOSPATIAL VISUALIZATION")
+        st.write("")
+
+        fig_4 = px.scatter_mapbox(df,lat ="latitude",lon ="longitude", color ="price",size ='accommodates',
+        color_continuous_scale = "rainbow", hover_name = 'name',range_color = (0,49000),mapbox_style = "open-street-map",
+        zoom = 1)
+        fig_4.update_layout(width=1150,height=800,title='Geospatial Distribution of Listings')
+        st.plotly_chart(fig_4)
+```
 
 ## Conclusion
 
-**Using this project to we can able to analysis the huge dataset into Visualization model and make decisions **
+**Using this project to we can able to analysis the huge dataset into Visualization model and make decisions**
+
 
 
 
