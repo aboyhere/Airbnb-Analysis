@@ -24,12 +24,13 @@ The Airbnb Data Analysis and Visualization project focuses on exploring and pres
 --
 ## **Getting Started**
 1. Clone the repo
-   >[https://github.com/aboyhere/Airbnb-Analysis]
+   > https://github.com/aboyhere/Airbnb-Analysis 
 2. install required packages
    >[pip install -r packages.text]
 3. Run streamlit app
    > streamlit run Airbnb.py
 4. Access the app in your browser
+   <br/>
    **Automatically redirect to your local browser**
 
 ## Conclusion
